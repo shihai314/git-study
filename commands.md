@@ -65,6 +65,8 @@
 #### 增加远程仓库，并命名(本地与远程建立关系)
 
 	git remote add [shortname] [url]
+* shortname一般用origin
+* url格式：https://github.com/[userName]/reposName
 
 #### 将本地的提交推送到远程仓库
 
