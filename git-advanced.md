@@ -80,3 +80,35 @@
 #### 在Github网站添加公钥
 
 #### 使用SSH协议，克隆仓库或者添加远程链接
+
+## 三、Git基本操作
+
+### 1.新Git命令
+
+#### git命令信息
+	git
+	
+#### 查看全部git子命令
+
+	git help -a
+	
+#### 逐行查看文件的修改历史
+
+	git blame <file name>
+	
+#### 从第100行开始，到110行。逐行查看文件的修改历史
+
+	git blame -L 100,10 <file name>
+	
+
+#### 列出打算清除的档案
+
+	git clean -n
+	
+#### 真正的删除
+
+	git clean -f
+	
+#### 连.gitignore 中忽略的档案也清除
+
+	git clean -x
